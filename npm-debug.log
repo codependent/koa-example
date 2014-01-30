@@ -1,0 +1,170 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\SoftDesarrollo\\4-Software\\Node.js-0.11.9\\\\node.exe',
+1 verbose cli   'C:\\SoftDesarrollo\\4-Software\\Node.js-0.11.9\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'q' ]
+2 info using npm@1.3.15
+3 info using node@v0.11.9
+4 verbose node symlink C:\SoftDesarrollo\4-Software\Node.js-0.11.9\\node.exe
+5 verbose cache add [ 'q', null ]
+6 verbose cache add name=undefined spec="q" args=["q",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'q',
+7 verbose parsed url   path: 'q',
+7 verbose parsed url   href: 'q' }
+8 silly lockFile 22ea1c64-q q
+9 verbose lock q C:\Users\JINGA4X\AppData\Roaming\npm-cache\22ea1c64-q.lock
+10 silly lockFile 22ea1c64-q q
+11 silly lockFile 22ea1c64-q q
+12 verbose addNamed [ 'q', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile f83edb5d-q q@
+15 verbose lock q@ C:\Users\JINGA4X\AppData\Roaming\npm-cache\f83edb5d-q.lock
+16 silly addNameRange { name: 'q', range: '*', hasData: false }
+17 verbose url raw q
+18 verbose url resolving [ 'https://registry.npmjs.org/', './q' ]
+19 verbose url resolved https://registry.npmjs.org/q
+20 info trying registry request attempt 1 at 09:47:02
+21 verbose etag "AS3QXGO4SZ237OK1BKCN4XYB1"
+22 http GET https://registry.npmjs.org/q
+23 http 304 https://registry.npmjs.org/q
+24 silly registry.get cb [ 304,
+24 silly registry.get   { date: 'Tue, 21 Jan 2014 08:47:03 GMT',
+24 silly registry.get     server: 'Apache',
+24 silly registry.get     connection: 'close',
+24 silly registry.get     etag: '"AS3QXGO4SZ237OK1BKCN4XYB1"',
+24 silly registry.get     vary: 'Accept' } ]
+25 verbose etag q from cache
+26 silly addNameRange number 2 { name: 'q', range: '*', hasData: true }
+27 silly addNameRange versions [ 'q',
+27 silly addNameRange   [ '0.0.0',
+27 silly addNameRange     '0.0.1',
+27 silly addNameRange     '0.0.2',
+27 silly addNameRange     '0.0.3',
+27 silly addNameRange     '0.1.0',
+27 silly addNameRange     '0.1.1',
+27 silly addNameRange     '0.1.2',
+27 silly addNameRange     '0.1.3',
+27 silly addNameRange     '0.1.4',
+27 silly addNameRange     '0.1.5',
+27 silly addNameRange     '0.1.6',
+27 silly addNameRange     '0.1.7',
+27 silly addNameRange     '0.1.8',
+27 silly addNameRange     '0.1.9',
+27 silly addNameRange     '0.2.0-rc1',
+27 silly addNameRange     '0.2.0',
+27 silly addNameRange     '0.2.1',
+27 silly addNameRange     '0.2.2',
+27 silly addNameRange     '0.2.3',
+27 silly addNameRange     '0.2.4',
+27 silly addNameRange     '0.2.5',
+27 silly addNameRange     '0.2.6',
+27 silly addNameRange     '0.2.7',
+27 silly addNameRange     '0.2.8',
+27 silly addNameRange     '0.2.9',
+27 silly addNameRange     '0.3.0',
+27 silly addNameRange     '0.2.10',
+27 silly addNameRange     '0.4.0',
+27 silly addNameRange     '0.4.1',
+27 silly addNameRange     '0.4.2',
+27 silly addNameRange     '0.4.4',
+27 silly addNameRange     '0.5.0',
+27 silly addNameRange     '0.5.1',
+27 silly addNameRange     '0.5.2',
+27 silly addNameRange     '0.5.3',
+27 silly addNameRange     '0.6.0',
+27 silly addNameRange     '0.7.0',
+27 silly addNameRange     '0.7.1',
+27 silly addNameRange     '0.7.2',
+27 silly addNameRange     '0.8.0',
+27 silly addNameRange     '0.8.1',
+27 silly addNameRange     '0.8.2',
+27 silly addNameRange     '0.8.3',
+27 silly addNameRange     '0.8.4',
+27 silly addNameRange     '0.8.5',
+27 silly addNameRange     '0.8.6',
+27 silly addNameRange     '0.8.7',
+27 silly addNameRange     '0.8.8',
+27 silly addNameRange     '0.8.9',
+27 silly addNameRange     '0.8.10',
+27 silly addNameRange     '0.8.11',
+27 silly addNameRange     '0.8.12',
+27 silly addNameRange     '0.9.0',
+27 silly addNameRange     '0.9.1',
+27 silly addNameRange     '0.9.2',
+27 silly addNameRange     '0.9.3',
+27 silly addNameRange     '0.9.4',
+27 silly addNameRange     '0.9.5',
+27 silly addNameRange     '0.9.6',
+27 silly addNameRange     '0.9.7',
+27 silly addNameRange     '1.0.0' ] ]
+28 verbose addNamed [ 'q', '1.0.0' ]
+29 verbose addNamed [ '1.0.0', '1.0.0' ]
+30 silly lockFile 4a267efb-q-1-0-0 q@1.0.0
+31 verbose lock q@1.0.0 C:\Users\JINGA4X\AppData\Roaming\npm-cache\4a267efb-q-1-0-0.lock
+32 silly lockFile 79ddd665-registry-npmjs-org-q-q-1-0-0-tgz https://registry.npmjs.org/q/-/q-1.0.0.tgz
+33 verbose lock https://registry.npmjs.org/q/-/q-1.0.0.tgz C:\Users\JINGA4X\AppData\Roaming\npm-cache\79ddd665-registry-npmjs-org-q-q-1-0-0-tgz.lock
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/q/-/q-1.0.0.tgz',
+34 verbose addRemoteTarball   'dc1f92c4587be54f7853b29dc28e6d243a88498d' ]
+35 info retry fetch attempt 1 at 09:47:04
+36 verbose fetch to= c:\Users\JINGA4X\AppData\Local\Temp\npm-12032-eHAHi7CZ\1390294024001-0.604457397479564\tmp.tgz
+37 http GET https://registry.npmjs.org/q/-/q-1.0.0.tgz
+38 http 200 https://registry.npmjs.org/q/-/q-1.0.0.tgz
+39 verbose chmod c:\Users\JINGA4X\AppData\Local\Temp\npm-12032-eHAHi7CZ\q-1.0.01390294026706-0.4291578165721148\tmp.tgz 644
+40 verbose tar unpack c:\Users\JINGA4X\AppData\Local\Temp\npm-12032-eHAHi7CZ\q-1.0.01390294026706-0.4291578165721148\tmp.tgz
+41 silly lockFile 1e41738e-26706-0-4291578165721148-package tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-12032-eHAHi7CZ\q-1.0.01390294026706-0.4291578165721148\package
+42 verbose lock tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-12032-eHAHi7CZ\q-1.0.01390294026706-0.4291578165721148\package C:\Users\JINGA4X\AppData\Roaming\npm-cache\1e41738e-26706-0-4291578165721148-package.lock
+43 silly lockFile d2c98bfe-26706-0-4291578165721148-tmp-tgz tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-12032-eHAHi7CZ\q-1.0.01390294026706-0.4291578165721148\tmp.tgz
+44 verbose lock tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-12032-eHAHi7CZ\q-1.0.01390294026706-0.4291578165721148\tmp.tgz C:\Users\JINGA4X\AppData\Roaming\npm-cache\d2c98bfe-26706-0-4291578165721148-tmp-tgz.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry package.json
+47 silly gunzTarPerm extractEntry README.md
+48 silly gunzTarPerm extractEntry LICENSE
+49 silly gunzTarPerm extractEntry q.js
+50 silly gunzTarPerm extractEntry queue.js
+51 silly gunzTarPerm extractEntry CONTRIBUTING.md
+52 silly gunzTarPerm extractEntry benchmark/compare-with-callbacks.js
+53 silly gunzTarPerm extractEntry benchmark/scenarios.js
+54 silly lockFile 1e41738e-26706-0-4291578165721148-package tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-12032-eHAHi7CZ\q-1.0.01390294026706-0.4291578165721148\package
+55 silly lockFile 1e41738e-26706-0-4291578165721148-package tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-12032-eHAHi7CZ\q-1.0.01390294026706-0.4291578165721148\package
+56 silly lockFile d2c98bfe-26706-0-4291578165721148-tmp-tgz tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-12032-eHAHi7CZ\q-1.0.01390294026706-0.4291578165721148\tmp.tgz
+57 silly lockFile d2c98bfe-26706-0-4291578165721148-tmp-tgz tar://c:\Users\JINGA4X\AppData\Local\Temp\npm-12032-eHAHi7CZ\q-1.0.01390294026706-0.4291578165721148\tmp.tgz
+58 verbose tar pack [ 'C:\\Users\\JINGA4X\\AppData\\Roaming\\npm-cache\\q\\1.0.0\\package.tgz',
+58 verbose tar pack   'c:\\Users\\JINGA4X\\AppData\\Local\\Temp\\npm-12032-eHAHi7CZ\\q-1.0.01390294026706-0.4291578165721148\\package' ]
+59 verbose tarball C:\Users\JINGA4X\AppData\Roaming\npm-cache\q\1.0.0\package.tgz
+60 verbose folder c:\Users\JINGA4X\AppData\Local\Temp\npm-12032-eHAHi7CZ\q-1.0.01390294026706-0.4291578165721148\package
+61 info prepublish q@1.0.0
+62 verbose unsafe-perm in lifecycle true
+63 info q@1.0.0 Failed to exec prepublish script
+64 error addLocalDirectory Could not pack "c:\\Users\\JINGA4X\\AppData\\Local\\Temp\\npm-12032-eHAHi7CZ\\q-1.0.01390294026706-0.4291578165721148\\package" to "C:\\Users\\JINGA4X\\AppData\\Roaming\\npm-cache\\q\\1.0.0\\package.tgz"
+65 silly lockFile 79ddd665-registry-npmjs-org-q-q-1-0-0-tgz https://registry.npmjs.org/q/-/q-1.0.0.tgz
+66 silly lockFile 79ddd665-registry-npmjs-org-q-q-1-0-0-tgz https://registry.npmjs.org/q/-/q-1.0.0.tgz
+67 silly lockFile 4a267efb-q-1-0-0 q@1.0.0
+68 silly lockFile 4a267efb-q-1-0-0 q@1.0.0
+69 silly lockFile f83edb5d-q q@
+70 silly lockFile f83edb5d-q q@
+71 error q@1.0.0 prepublish: `grunt`
+71 error Exit status 1
+72 error Failed at the q@1.0.0 prepublish script.
+72 error This is most likely a problem with the q package,
+72 error not with npm itself.
+72 error Tell the author that this fails on your system:
+72 error     grunt
+72 error You can get their info via:
+72 error     npm owner ls q
+72 error There is likely additional logging output above.
+73 error System Windows_NT 6.1.7601
+74 error command "C:\\SoftDesarrollo\\4-Software\\Node.js-0.11.9\\\\node.exe" "C:\\SoftDesarrollo\\4-Software\\Node.js-0.11.9\\node_modules\\npm\\bin\\npm-cli.js" "install" "q"
+75 error cwd C:\Users\JINGA4X\Documents\GitHub\koa-example
+76 error node -v v0.11.9
+77 error npm -v 1.3.15
+78 error code ELIFECYCLE
+79 verbose exit [ 1, true ]
